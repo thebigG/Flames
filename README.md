@@ -1,2 +1,2 @@
-Playing around with godot particlest
+Playing around with godot particles
 
