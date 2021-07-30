@@ -5,7 +5,7 @@
 [node name="Flames" type="Node"]
 
 [node name="Particles2D" type="Particles2D" parent="."]
-position = Vector2( 178.056, -98.2671 )
-amount = 10
-lifetime = 5.0
+position = Vector2( 488.204, -36.897 )
+amount = 20
+lifetime = 15.0
 process_material = ExtResource( 1 )
