@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/532191__mcmikai__fire-in-the-stove.wav-19227aa07939da1a93d94ba391c88592.sample"
+type="AudioStreamWAV"
+uid="uid://ddgbs7fki063p"
+path="res://.godot/imported/532191__mcmikai__fire-in-the-stove.wav-19227aa07939da1a93d94ba391c88592.sample"
 
 [deps]
 
 source_file="res://532191__mcmikai__fire-in-the-stove.wav"
-dest_files=[ "res://.import/532191__mcmikai__fire-in-the-stove.wav-19227aa07939da1a93d94ba391c88592.sample" ]
+dest_files=["res://.godot/imported/532191__mcmikai__fire-in-the-stove.wav-19227aa07939da1a93d94ba391c88592.sample"]
 
 [params]
 
@@ -17,5 +18,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop=true
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
 compress/mode=0

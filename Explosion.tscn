@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dlwcunainia8g"]
+
+[ext_resource type="Material" uid="uid://bgbjuhiodmyoy" path="res://ashes.material" id="1_4g8ke"]
+[ext_resource type="AudioStream" uid="uid://ddgbs7fki063p" path="res://532191__mcmikai__fire-in-the-stove.wav" id="2_kcyq0"]
+
+[node name="Explosion" type="Node"]
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="."]
+position = Vector2(185, 538)
+amount = 20
+process_material = ExtResource("1_4g8ke")
+lifetime = 2.0
+explosiveness = 1.0
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_kcyq0")
+autoplay = true
